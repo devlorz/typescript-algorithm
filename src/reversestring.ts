@@ -1,4 +1,4 @@
-const reverse = (str: string) => {
+const reverse = (str: string): string => {
   // first solution
   // return str
   //   .split('')
