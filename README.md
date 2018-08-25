@@ -6,3 +6,4 @@ Implemented by TypeScript
 ## List of Algorithms
 
 - [Reverse String](https://github.com/devlorz/typescript-algorithm/blob/master/src/reversestring.ts)
+- [Palindrome](https://github.com/devlorz/typescript-algorithm/blob/master/src/palindrome.ts)
