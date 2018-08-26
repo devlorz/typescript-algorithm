@@ -7,3 +7,4 @@ Implemented by TypeScript
 
 - [Reverse String](https://github.com/devlorz/typescript-algorithm/blob/master/src/reversestring.ts)
 - [Palindrome](https://github.com/devlorz/typescript-algorithm/blob/master/src/palindrome.ts)
+- [Reverse Integer](https://github.com/devlorz/typescript-algorithm/blob/master/src/reverseint.ts)
