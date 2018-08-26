@@ -9,3 +9,4 @@ Implemented by TypeScript
 - [Palindrome](https://github.com/devlorz/typescript-algorithm/blob/master/src/palindrome.ts)
 - [Reverse Integer](https://github.com/devlorz/typescript-algorithm/blob/master/src/reverseint.ts)
 - [MaxChars](https://github.com/devlorz/typescript-algorithm/blob/master/src/maxchar.ts)
+- [Unique Sort](https://github.com/devlorz/typescript-algorithm/blob/master/src/uniqsort.ts)
