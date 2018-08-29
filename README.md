@@ -13,3 +13,5 @@ Implemented by TypeScript
 - [Unique Sort](https://github.com/devlorz/typescript-algorithm/blob/master/src/uniqsort.ts)
 - [FizzBuzz](https://github.com/devlorz/typescript-algorithm/blob/master/src/fizzbuzz.ts)
 - [Basic Memoization](https://github.com/devlorz/typescript-algorithm/blob/master/src/basic-memoization.ts)
+- [Closure Memoization](https://github.com/devlorz/typescript-algorithm/blob/master/src/closure-memoization.ts)
+- [Array Chunking](https://github.com/devlorz/typescript-algorithm/blob/master/src/chunk.ts)
