@@ -1,18 +1,21 @@
 export const chunk = (list: Array<number>, size: number) => {
-  const newList: Array<Array<number>> = [];
-  let cacheList: Array<number> = [];
-  let cache = 0;
-  list.reduce((acc, cur) => {
-    if (cache < size) {
-      cache++;
-      cacheList.push(cur);
-    } else {
-      cache = 1;
-      acc.push(cacheList);
-      cacheList = [cur];
-    }
-    return acc;
-  }, newList);
-  newList.push(cacheList);
-  return newList;
+  // first solution
+  // const chunked: Array<Array<number>> = [];
+  // for (let element of list) {
+  //   const last = chunked[chunked.length - 1];
+
+  //   if (!last || last.length === size) {
+  //     chunked.push([element]);
+  //   } else {
+  //     last.push(element);
+  //   }
+  // }
+  // return chunked;
+
+  // second solution
+  const chunked: Array<Array<number>> = [];
+  for (let i = 0; i < list.length; i = i + size) {
+    chunked.push(list.slice(i, i + size));
+  }
+  return chunked;
 };
