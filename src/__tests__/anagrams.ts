@@ -1,4 +1,4 @@
-import anagrams from '../anagrams';
+import { anagrams } from '../anagrams';
 
 test('anagrams function exists', () => {
   expect(typeof anagrams).toEqual('function');
