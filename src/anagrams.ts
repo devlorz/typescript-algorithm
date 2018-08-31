@@ -6,18 +6,31 @@ const buildCharMap = (text: string): { [key: string]: number } => {
   return charMap;
 };
 
+const cleanText = (text: string): string => {
+  return text
+    .replace('/[^w/g]', '')
+    .toLowerCase()
+    .split('')
+    .sort()
+    .join('');
+};
+
 export const anagrams = (textA: string, textB: string): boolean => {
-  const aCharMap = buildCharMap(textA);
-  const bCharMap = buildCharMap(textB);
+  // first solution
+  // const aCharMap = buildCharMap(textA);
+  // const bCharMap = buildCharMap(textB);
 
-  if (Object.keys(aCharMap).length !== Object.keys(bCharMap).length) {
-    return false;
-  }
+  // if (Object.keys(aCharMap).length !== Object.keys(bCharMap).length) {
+  //   return false;
+  // }
 
-  for (let char in aCharMap) {
-    if (aCharMap[char] !== bCharMap[char]) {
-      return false;
-    }
-  }
-  return true;
+  // for (let char in aCharMap) {
+  //   if (aCharMap[char] !== bCharMap[char]) {
+  //     return false;
+  //   }
+  // }
+  // return true;
+
+  // second solution
+  return cleanText(textA) === cleanText(textB);
 };
