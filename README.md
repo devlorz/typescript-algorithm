@@ -15,3 +15,5 @@ Implemented by TypeScript
 - [Basic Memoization](https://github.com/devlorz/typescript-algorithm/blob/master/src/basic-memoization.ts)
 - [Closure Memoization](https://github.com/devlorz/typescript-algorithm/blob/master/src/closure-memoization.ts)
 - [Array Chunking](https://github.com/devlorz/typescript-algorithm/blob/master/src/chunk.ts)
+- [Anagrams](https://github.com/devlorz/typescript-algorithm/blob/master/src/anagrams.ts)
+- [Sentence Capitalization](https://github.com/devlorz/typescript-algorithm/blob/master/src/chunk.ts)
