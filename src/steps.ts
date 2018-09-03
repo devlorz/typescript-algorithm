@@ -24,11 +24,7 @@ export const steps = (n: number, row = 0, stair = ''): void => {
     return steps(n, row + 1);
   }
 
-  if (stair.length <= row) {
-    stair += '#';
-  } else {
-    stair += ' ';
-  }
+  const add = stair.length <= row ? '#' : ' ';
 
-  return steps(n, row, stair);
+  return steps(n, row, stair + add);
 };
