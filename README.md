@@ -21,3 +21,5 @@ Implemented by TypeScript
 - [Wrapper Function](https://github.com/devlorz/typescript-algorithm/blob/master/src/wrapper-function.ts)
 - [Accumulators](https://github.com/devlorz/typescript-algorithm/blob/master/src/accumulators.ts)
 - [Iterative Loop](https://github.com/devlorz/typescript-algorithm/blob/master/src/iterative-loop.ts)
+- [Binary Search](https://github.com/devlorz/typescript-algorithm/blob/master/src/binarySearch.ts)
+- [Pyramid](https://github.com/devlorz/typescript-algorithm/blob/master/src/pyramid.ts)
