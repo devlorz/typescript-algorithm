@@ -23,3 +23,6 @@ Implemented by TypeScript
 - [Iterative Loop](https://github.com/devlorz/typescript-algorithm/blob/master/src/iterative-loop.ts)
 - [Binary Search](https://github.com/devlorz/typescript-algorithm/blob/master/src/binarySearch.ts)
 - [Pyramid](https://github.com/devlorz/typescript-algorithm/blob/master/src/pyramid.ts)
+- [Brute Force](https://github.com/devlorz/typescript-algorithm/blob/master/src/brute-force.ts)
+- [Dynamic Programming](https://github.com/devlorz/typescript-algorithm/blob/master/src/dynamic-programming.ts)
+- [Find Vowels](https://github.com/devlorz/typescript-algorithm/blob/master/src/vowels.ts)
