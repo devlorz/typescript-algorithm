@@ -4,17 +4,30 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
     "@types/jest": "^23.3.1",
     "jest": "^23.5.0",
     "ts-jest": "^23.1.4",
     "ts-loader": "^4.5.0",
     "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
     "typescript": "^3.0.1",
     "webpack": "^4.17.0"
   },
   "scripts": {
     "test": "jest",
-    "node": "ts-node"
+    "node": "ts-node",
+    "type-check": "tsc --noEmit",
+    "type-check-watch": "type-check -- --watch",
+    "build": "yarn run build-types && yarn run build-js",
+    "build-types": "tsc --emitDeclarationOnly",
+    "build-js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "lint": "tslint '**/*.ts'"
   },
   "jest": {
     "roots": [
