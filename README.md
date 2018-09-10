@@ -26,3 +26,4 @@ Implemented by TypeScript
 - [Brute Force](https://github.com/devlorz/typescript-algorithm/blob/master/src/brute-force.ts)
 - [Dynamic Programming](https://github.com/devlorz/typescript-algorithm/blob/master/src/dynamic-programming.ts)
 - [Find Vowels](https://github.com/devlorz/typescript-algorithm/blob/master/src/vowels.ts)
+- [Fibonacci](https://github.com/devlorz/typescript-algorithm/blob/master/src/fibonacci.ts)
